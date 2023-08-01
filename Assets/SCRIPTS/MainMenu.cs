@@ -17,11 +17,6 @@ public class MainMenu : MonoBehaviour
     {
         UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
-
-    }
-    public void MusicOn()
-    {
-        gameObject.SetActive(false);
     }
 
 }
